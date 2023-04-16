@@ -1,0 +1,77 @@
+﻿/*This is the CSS for the website*/
+
+/*configure the body element*/
+body {font-family: Gruppo, Arial, Verdana, sans-serif;
+    background-color: hsl(150,100%,60%);
+    background-image: linear-gradient(to bottom, hsl(30, 60%,70%), hsl(150,100%,60%));
+    background-repeat: no-repeat;}
+    /*background:url(images/t_calligraphyplant.png) no-repeat right bottom;  --> background plant image
+    					avoid using this because it will destroy background color gradiant*/
+
+
+/*configure the header element*/   
+header {background-image: url(images/Avocado_Tree.jpg);
+	background-repeat: no-repeat;/*prevents tile pattern of image in background*/
+	background-size: cover;}/*fills background by proportionately stretching out image*/
+
+
+/*configure the h1 element*/	
+h1 {text-align: center;
+   font-size: 300%;/*3x the normal size of a character*/
+   padding: 5% 0;
+   text-shadow: 4px 4px 4px hsl(150,10%,3.9%);}
+   		/*page 343, links layout, and Mobile--
+   		the first 4px configures the horizontal direction, 4 pixels to the right
+   		the second 4px configures the vertical direction, 4 pixels down
+   		the third 4px is the radial gradient of the shadow
+   		the hsl value is the color property of the shadow*/
+   
+
+h1 a{color:rgb(241,249,7);}/*changes text color in the banner*/
+
+/*img {max-width: 100;
+	height: auto;}  I do not remember where i got this or why I put it here
+	and It bugs the shit out of me >.<    */
+	
+
+/*configure the nav element*/
+nav{padding 3em; /*adds 3 characters' worth of space between the text and its margin*/
+    color: hsl(150,100%,10%);
+    background-color:hsl(90, 40%,50%);
+    font-size: 2em;}
+
+div,ul {font-size: 16pt;}
+
+/*this ID will keep the image to the right, and within the div element*/	
+#floatPic {float: right;
+	margin-left: 10px;
+	border: 2px ridge #000000;}
+	/*covered in page 259 of textbook*/
+
+
+/*this class will define the space the div element will take up*/	
+.divSize {width: auto;
+	height: 300px;}
+	
+form {
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+    width: 50%;
+    margin-left: 25%
+}
+
+table, td, th {
+    border: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #7dffff;
+}
+footer {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.clearright{clear: right;}
+
